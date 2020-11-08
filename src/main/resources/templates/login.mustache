@@ -1,0 +1,14 @@
+<html>
+    <body>
+    <div>
+        <form method="post" action="cabinet.mustache">
+            <input type="hidden" name="_csrf" value="{{_csrf.token}}"></input>
+            <input type="email" name ="email" placeholder="email"></input>
+            <input type="first_name" name ="first_name" placeholder="first_name"></input>
+            <input type="last_name" name ="last_name" placeholder="last_name"></input>
+            <input type="password" name ="password" placeholder="password"></input>
+            <button type="submit">Логин</button>
+        </form>
+    </div>
+    </body>
+</html>
